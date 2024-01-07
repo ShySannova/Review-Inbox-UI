@@ -5,7 +5,7 @@ import { FaTwitter } from "react-icons/fa";
 import { BsDot } from "react-icons/bs";
 const SiderBar = () => {
     return (
-        <aside className="h-[100%] w-[260px] fixed top-0 z-10">
+        <aside className="h-[100%] w-min-[270px] fixed top-0 z-10">
             <ul className="h-full flex flex-col sidebar">
                 <li>
                     <FaPlus />
